@@ -1,0 +1,526 @@
+Dialog - 'Urządzenia i drukarki'    (L1241, T434, R2380, B1075)
+['Urządzenia i drukarkiDialog', 'Urządzenia i drukarki', 'Dialog', 'Urządzenia i drukarki0', 'Urządzenia i drukarki1']
+child_window(title="Urządzenia i drukarki", control_type="Window")
+   |
+   | Pane - ''    (L1249, T465, R2372, B507)
+   | ['Pane', 'Pane0', 'Pane1']
+   | child_window(auto_id="40965", control_type="Pane")
+   |    |
+   |    | Pane - ''    (L1249, T468, R1330, B500)
+   |    | ['Pane2']
+   |    |    |
+   |    |    | Toolbar - 'Przyciski nawigacji'    (L1253, T470, R1330, B500)
+   |    |    | ['Przyciski nawigacji', 'Toolbar', 'Przyciski nawigacjiToolbar', 'Toolbar0', 'Toolbar1']
+   |    |    | child_window(title="Przyciski nawigacji", control_type="ToolBar")
+   |    |    |    |
+   |    |    |    | Button - 'Wstecz (Alt + Strzałka w lewo)'    (L1253, T470, R1283, B500)
+   |    |    |    | ['Button', 'Wstecz (Alt + Strzałka w lewo)Button', 'Wstecz (Alt + Strzałka w lewo)', 'Button0', 'Button1']
+   |    |    |    | child_window(title="Wstecz (Alt + Strzałka w lewo)", control_type="Button")
+   |    |    |    |
+   |    |    |    | Button - 'Dalej (Alt + Strzałka w prawo)'    (L1283, T470, R1313, B500)
+   |    |    |    | ['Button2', 'Dalej (Alt + Strzałka w prawo)Button', 'Dalej (Alt + Strzałka w prawo)']
+   |    |    |    | child_window(title="Dalej (Alt + Strzałka w prawo)", control_type="Button")
+   |    |    |    |
+   |    |    |    | Button - 'Ostatnie lokalizacje'    (L1313, T470, R1328, B500)
+   |    |    |    | ['Button3', 'Ostatnie lokalizacjeButton', 'Ostatnie lokalizacje']
+   |    |    |    | child_window(title="Ostatnie lokalizacje", control_type="Button")
+   |    |
+   |    | Pane - ''    (L1330, T470, R1354, B499)
+   |    | ['Pane3']
+   |    |    |
+   |    |    | Toolbar - 'Górny pasek narzędzi'    (L1330, T474, R1354, B503)
+   |    |    | ['Górny pasek narzędzi', 'Toolbar2', 'Górny pasek narzędziToolbar']
+   |    |    | child_window(title="Górny pasek narzędzi", control_type="ToolBar")
+   |    |    |    |
+   |    |    |    | Button - 'W górę do „Sprzęt i dźwięk” (Alt + Strzałka w górę)'    (L1330, T474, R1354, B498)
+   |    |    |    | ['Button4', 'W górę do „Sprzęt i dźwięk” (Alt + Strzałka w górę)', 'W górę do „Sprzęt i dźwięk” (Alt + Strzałka w górę)Button']
+   |    |    |    | child_window(title="W górę do „Sprzęt i dźwięk” (Alt + Strzałka w górę)", control_type="Button")
+   |    |
+   |    | Pane - ''    (L1354, T465, R2003, B504)
+   |    | ['Pane4']
+   |    | child_window(auto_id="41477", control_type="Pane")
+   |    |    |
+   |    |    | Progress - ''    (L1356, T470, R2001, B500)
+   |    |    | ['Progress']
+   |    |    |    |
+   |    |    |    | Pane - ''    (L1356, T470, R1935, B500)
+   |    |    |    | ['Pane5']
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Adres: Panel sterowania\Sprzęt i dźwięk\Urządzenia i drukarki'    (L1356, T470, R1935, B500)
+   |    |    |    |    | ['Adres: Panel sterowania\\Sprzęt i dźwięk\\Urządzenia i drukarki', 'Toolbar3', 'Adres: Panel sterowania\\Sprzęt i dźwięk\\Urządzenia i drukarkiToolbar']
+   |    |    |    |    | child_window(title="Adres: Panel sterowania\Sprzęt i dźwięk\Urządzenia i drukarki", auto_id="1001", control_type="ToolBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | SplitButton - 'Wszystkie lokalizacje'    (L1356, T470, R1391, B499)
+   |    |    |    |    |    | ['Wszystkie lokalizacje', 'SplitButton', 'Wszystkie lokalizacjeSplitButton', 'SplitButton0', 'SplitButton1']
+   |    |    |    |    |    | child_window(title="Wszystkie lokalizacje", control_type="SplitButton")
+   |    |    |    |    |    |
+   |    |    |    |    |    | SplitButton - 'Panel sterowania'    (L1391, T470, R1503, B499)
+   |    |    |    |    |    | ['Panel sterowania', 'SplitButton2', 'Panel sterowaniaSplitButton']
+   |    |    |    |    |    | child_window(title="Panel sterowania", control_type="SplitButton")
+   |    |    |    |    |    |
+   |    |    |    |    |    | SplitButton - 'Sprzęt i dźwięk'    (L1503, T470, R1603, B499)
+   |    |    |    |    |    | ['Sprzęt i dźwiękSplitButton', 'SplitButton3', 'Sprzęt i dźwięk']
+   |    |    |    |    |    | child_window(title="Sprzęt i dźwięk", control_type="SplitButton")
+   |    |    |    |    |    |
+   |    |    |    |    |    | MenuItem - 'Urządzenia i drukarki'    (L1603, T470, R1720, B499)
+   |    |    |    |    |    | ['Urządzenia i drukarki2', 'MenuItem', 'Urządzenia i drukarkiMenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    |    |    |    | child_window(title="Urządzenia i drukarki", control_type="MenuItem")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Pasek narzędzi adresu'    (L1935, T470, R2001, B500)
+   |    |    |    | ['Toolbar4', 'Pasek narzędzi adresu', 'Pasek narzędzi adresuToolbar']
+   |    |    |    | child_window(title="Pasek narzędzi adresu", control_type="ToolBar")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Poprzednie lokalizacje'    (L1935, T470, R1968, B500)
+   |    |    |    |    | ['Button5', 'Poprzednie lokalizacje', 'Poprzednie lokalizacjeButton']
+   |    |    |    |    | child_window(title="Poprzednie lokalizacje", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Odśwież „Urządzenia i drukarki” (F5)'    (L1968, T470, R2001, B500)
+   |    |    |    |    | ['Button6', 'Odśwież „Urządzenia i drukarki” (F5)Button', 'Odśwież „Urządzenia i drukarki” (F5)']
+   |    |    |    |    | child_window(title="Odśwież „Urządzenia i drukarki” (F5)", control_type="Button")
+   |    |
+   |    | Pane - ''    (L2007, T484, R2013, B485)
+   |    | ['Pane6']
+   |    |
+   |    | Pane - ''    (L2013, T466, R2361, B502)
+   |    | ['Pane7']
+   |    |    |
+   |    |    | Pane - ''    (L2013, T469, R2361, B501)
+   |    |    | ['Pane8']
+   |    |    |    |
+   |    |    |    | Pane - ''    (L2018, T469, R2356, B501)
+   |    |    |    | ['Pane9']
+   |    |    |    |    |
+   |    |    |    |    | Edit - '\r'    (L2020, T477, R2334, B492)
+   |    |    |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    |    |    | child_window(title="\r", auto_id="SearchEditBox", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Wyszukaj'    (L2338, T469, R2354, B501)
+   |    |    |    |    | ['Button7', 'Wyszukaj', 'WyszukajButton']
+   |    |    |    |    | child_window(title="Wyszukaj", auto_id="SearchBoxSearchButton", control_type="Button")
+   |    |
+   |    | Pane - ''    (L2365, T484, R2372, B485)
+   |    | ['Pane10']
+   |
+   | Pane - 'Urządzenia i drukarki'    (L1249, T507, R2372, B1067)
+   | ['Pane11', 'Urządzenia i drukarkiPane', 'Urządzenia i drukarki3']
+   | child_window(title="Urządzenia i drukarki", control_type="Pane")
+   |    |
+   |    | Pane - ''    (L1249, T507, R2372, B1067)
+   |    | ['Pane12']
+   |    |    |
+   |    |    | Image - 'Moduł miniatur'    (L1267, T999, R1331, B1063)
+   |    |    | ['Image', 'Moduł miniatur', 'Moduł miniaturImage', 'Image0', 'Image1']
+   |    |    | child_window(title="Moduł miniatur", auto_id="PreviewThumbnailInner", control_type="Image")
+   |    |    |
+   |    |    | TreeView - 'Moduł metadanych'    (L1345, T1000, R2362, B1064)
+   |    |    | ['Moduł metadanychTreeView', 'TreeView', 'Moduł metadanych']
+   |    |    | child_window(title="Moduł metadanych", auto_id="PreviewMetadataInner", control_type="Tree")
+   |    |    |    |
+   |    |    |    | Edit - 'Liczba elementów'    (L1345, T1000, R1432, B1018)
+   |    |    |    | ['Edit2']
+   |    |    |    | child_window(title="Liczba elementów", auto_id="ItemCountLabel", control_type="Edit")
+   |    |    |
+   |    |    | Toolbar - 'Moduł poleceń'    (L1249, T507, R2372, B538)
+   |    |    | ['Moduł poleceń', 'Toolbar5', 'Moduł poleceńToolbar']
+   |    |    | child_window(title="Moduł poleceń", auto_id="FolderBandModuleInner", control_type="ToolBar")
+   |    |    |    |
+   |    |    |    | Button - 'Pomo&c'    (L2335, T509, R2363, B535)
+   |    |    |    | ['Button8', 'Pomo&cButton', 'Pomo&c']
+   |    |    |    | child_window(title="Pomo&c", auto_id="HelpButton", control_type="Button")
+   |    |    |    |
+   |    |    |    | SplitButton - 'Widoki'    (L2272, T509, R2327, B535)
+   |    |    |    | ['SplitButton4', 'WidokiSplitButton', 'Widoki']
+   |    |    |    | child_window(title="Widoki", auto_id="ViewControl", control_type="SplitButton")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Suwak widoku'    (L2299, T509, R2317, B535)
+   |    |    |    |    | ['Button9', 'Suwak widoku', 'Suwak widokuButton']
+   |    |    |    |    | child_window(title="Suwak widoku", auto_id="SplitMenuButton", control_type="Button")
+   |    |    |    |
+   |    |    |    | Button - 'Dodaj urządzenie'    (L1252, T509, R1372, B535)
+   |    |    |    | ['Button10', 'Dodaj urządzenie', 'Dodaj urządzenieButton']
+   |    |    |    | child_window(title="Dodaj urządzenie", auto_id="{D63699A2-2221-4856-BBB6-379A1D245576}", control_type="Button")
+   |    |    |    |
+   |    |    |    | Button - 'Dodaj drukarkę'    (L1372, T509, R1482, B535)
+   |    |    |    | ['Button11', 'Dodaj drukarkęButton', 'Dodaj drukarkę']
+   |    |    |    | child_window(title="Dodaj drukarkę", auto_id="{0BEA70B6-CD46-4C65-9E73-4438FF68485B}", control_type="Button")
+   |    |    |
+   |    |    | Pane - 'Widok folderu powłoki'    (L1249, T538, R2372, B995)
+   |    |    | ['Pane13', 'Widok folderu powłoki', 'Widok folderu powłokiPane']
+   |    |    | child_window(title="Widok folderu powłoki", auto_id="listview", control_type="Pane")
+   |    |    |    |
+   |    |    |    | ListBox - 'Widok elementów'    (L1249, T538, R2372, B995)
+   |    |    |    | ['Widok elementówListBox', 'Widok elementów', 'ListBox']
+   |    |    |    | child_window(title="Widok elementów", control_type="List")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - 'Pionowy pasek przewijania'    (L2355, T538, R2372, B995)
+   |    |    |    |    | ['Pionowy pasek przewijaniaScrollBar', 'Pionowy pasek przewijania', 'ScrollBar']
+   |    |    |    |    | child_window(title="Pionowy pasek przewijania", auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Wiersz w górę'    (L2355, T538, R2372, B555)
+   |    |    |    |    |    | ['Button12', 'Wiersz w góręButton', 'Wiersz w górę']
+   |    |    |    |    |    | child_window(title="Wiersz w górę", auto_id="UpButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Thumb - 'Pozycja'    (L2355, T555, R2372, B892)
+   |    |    |    |    |    | ['Pozycja', 'Thumb', 'PozycjaThumb']
+   |    |    |    |    |    | child_window(title="Pozycja", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Strona w dół'    (L2355, T892, R2372, B978)
+   |    |    |    |    |    | ['Button13', 'Strona w dółButton', 'Strona w dół']
+   |    |    |    |    |    | child_window(title="Strona w dół", auto_id="DownPageButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Wiersz w dół'    (L2355, T978, R2372, B995)
+   |    |    |    |    |    | ['Button14', 'Wiersz w dółButton', 'Wiersz w dół']
+   |    |    |    |    |    | child_window(title="Wiersz w dół", auto_id="DownButton", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | GroupBox - 'Drukarki'    (L1249, T544, R2355, B706)
+   |    |    |    |    | ['Drukarki', 'DrukarkiGroupBox', 'GroupBox', 'GroupBox0', 'GroupBox1']
+   |    |    |    |    | child_window(title="Drukarki", control_type="Group")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Custom - 'Drukarki (5)'    (L1249, T544, R2355, B571)
+   |    |    |    |    |    | ['Custom', 'Drukarki (5)', 'Drukarki (5)Custom', 'Custom0', 'Custom1']
+   |    |    |    |    |    | child_window(title="Drukarki (5)", auto_id="UIGroupHeader", control_type="Custom")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Button - 'Zwiń grupę'    (L1253, T546, R1268, B567)
+   |    |    |    |    |    |    | ['Button15', 'Zwiń grupęButton', 'Zwiń grupę', 'Zwiń grupęButton0', 'Zwiń grupęButton1', 'Zwiń grupę0', 'Zwiń grupę1']
+   |    |    |    |    |    |    | child_window(title="Zwiń grupę", auto_id="UIGroupButton", control_type="Button")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1268, T546, R1327, B567)
+   |    |    |    |    |    |    | ['Edit3']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Licznik'    (L1327, T546, R1349, B567)
+   |    |    |    |    |    |    | ['Edit4']
+   |    |    |    |    |    |    | child_window(title="Licznik", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Fax'    (L1263, T572, R1368, B691)
+   |    |    |    |    |    | ['ListItem', 'FaxListItem', 'Fax', 'ListItem0', 'ListItem1']
+   |    |    |    |    |    | child_window(title="Fax", auto_id="0", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1267, T574, R1364, B670)
+   |    |    |    |    |    |    | ['Image2']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1304, T670, R1305, B689)
+   |    |    |    |    |    |    | ['Edit5']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1305, T670, R1327, B686)
+   |    |    |    |    |    |    | ['Edit6']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Microsoft Print to PDF'    (L1372, T572, R1477, B703)
+   |    |    |    |    |    | ['ListItem2', 'Microsoft Print to PDF', 'Microsoft Print to PDFListItem']
+   |    |    |    |    |    | child_window(title="Microsoft Print to PDF", auto_id="1", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1376, T574, R1473, B670)
+   |    |    |    |    |    |    | ['Image3']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1381, T670, R1382, B689)
+   |    |    |    |    |    |    | ['Edit7']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1382, T670, R1468, B701)
+   |    |    |    |    |    |    | ['Edit8']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Microsoft XPS Document Writer'    (L1481, T572, R1586, B703)
+   |    |    |    |    |    | ['ListItem3', 'Microsoft XPS Document WriterListItem', 'Microsoft XPS Document Writer']
+   |    |    |    |    |    | child_window(title="Microsoft XPS Document Writer", auto_id="2", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1485, T574, R1582, B670)
+   |    |    |    |    |    |    | ['Image4']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1485, T670, R1486, B689)
+   |    |    |    |    |    |    | ['Edit9']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1486, T670, R1581, B701)
+   |    |    |    |    |    |    | ['Edit10']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'OneNote (Desktop)'    (L1590, T572, R1695, B703)
+   |    |    |    |    |    | ['ListItem4', 'OneNote (Desktop)', 'OneNote (Desktop)ListItem']
+   |    |    |    |    |    | child_window(title="OneNote (Desktop)", auto_id="3", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1594, T574, R1691, B670)
+   |    |    |    |    |    |    | ['Image5']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1614, T670, R1615, B689)
+   |    |    |    |    |    |    | ['Edit11']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1615, T670, R1670, B701)
+   |    |    |    |    |    |    | ['Edit12']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'OneNote for Windows 10'    (L1699, T572, R1804, B703)
+   |    |    |    |    |    | ['ListItem5', 'OneNote for Windows 10', 'OneNote for Windows 10ListItem']
+   |    |    |    |    |    | child_window(title="OneNote for Windows 10", auto_id="4", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1703, T574, R1800, B670)
+   |    |    |    |    |    |    | ['Image6']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1714, T670, R1715, B689)
+   |    |    |    |    |    |    | ['Edit13']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1715, T670, R1788, B701)
+   |    |    |    |    |    |    | ['Edit14']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | GroupBox - 'Urządzenia'    (L1249, T706, R2355, B1030)
+   |    |    |    |    | ['Urządzenia', 'UrządzeniaGroupBox', 'GroupBox2']
+   |    |    |    |    | child_window(title="Urządzenia", auto_id="1", control_type="Group")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Custom - 'Urządzenia (13)'    (L1249, T706, R2355, B733)
+   |    |    |    |    |    | ['Custom2', 'Urządzenia (13)Custom', 'Urządzenia (13)']
+   |    |    |    |    |    | child_window(title="Urządzenia (13)", auto_id="UIGroupHeader", control_type="Custom")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Button - 'Zwiń grupę'    (L1253, T708, R1268, B729)
+   |    |    |    |    |    |    | ['Button16', 'Zwiń grupęButton2', 'Zwiń grupę2']
+   |    |    |    |    |    |    | child_window(title="Zwiń grupę", auto_id="UIGroupButton", control_type="Button")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1268, T708, R1346, B729)
+   |    |    |    |    |    |    | ['Edit15']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Licznik'    (L1346, T708, R1376, B729)
+   |    |    |    |    |    |    | ['Edit16']
+   |    |    |    |    |    |    | child_window(title="Licznik", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'BASS+ On-Ear'    (L1263, T734, R1368, B853)
+   |    |    |    |    |    | ['ListItem6', 'BASS+ On-EarListItem', 'BASS+ On-Ear']
+   |    |    |    |    |    | child_window(title="BASS+ On-Ear", auto_id="0", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1267, T736, R1364, B832)
+   |    |    |    |    |    |    | ['Image7']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1275, T832, R1276, B851)
+   |    |    |    |    |    |    | ['Edit17']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1276, T832, R1355, B848)
+   |    |    |    |    |    |    | ['Edit18']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'BCM920702 Bluetooth 4.0'    (L1372, T734, R1477, B865)
+   |    |    |    |    |    | ['ListItem7', 'BCM920702 Bluetooth 4.0', 'BCM920702 Bluetooth 4.0ListItem']
+   |    |    |    |    |    | child_window(title="BCM920702 Bluetooth 4.0", auto_id="1", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1376, T736, R1473, B832)
+   |    |    |    |    |    |    | ['Image8']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1387, T832, R1388, B851)
+   |    |    |    |    |    |    | ['Edit19']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1388, T832, R1462, B863)
+   |    |    |    |    |    |    | ['Edit20']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'C-1U'    (L1481, T734, R1586, B853)
+   |    |    |    |    |    | ['ListItem8', 'C-1U', 'C-1UListItem']
+   |    |    |    |    |    | child_window(title="C-1U", auto_id="2", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1485, T736, R1582, B832)
+   |    |    |    |    |    |    | ['Image9']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1517, T832, R1518, B851)
+   |    |    |    |    |    |    | ['Edit21']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1518, T832, R1549, B848)
+   |    |    |    |    |    |    | ['Edit22']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'DESKTOP-79F10I7'    (L1590, T734, R1695, B853)
+   |    |    |    |    |    | ['ListItem9', 'DESKTOP-79F10I7', 'DESKTOP-79F10I7ListItem']
+   |    |    |    |    |    | child_window(title="DESKTOP-79F10I7", auto_id="3", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1594, T736, R1691, B832)
+   |    |    |    |    |    |    | ['Image10']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1594, T832, R1595, B851)
+   |    |    |    |    |    |    | ['Edit23']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1595, T832, R1691, B848)
+   |    |    |    |    |    |    | ['Edit24']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'G502 HERO Gaming Mouse'    (L1699, T734, R1804, B865)
+   |    |    |    |    |    | ['ListItem10', 'G502 HERO Gaming Mouse', 'G502 HERO Gaming MouseListItem']
+   |    |    |    |    |    | child_window(title="G502 HERO Gaming Mouse", auto_id="4", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1703, T736, R1800, B832)
+   |    |    |    |    |    |    | ['Image11']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1708, T832, R1709, B851)
+   |    |    |    |    |    |    | ['Edit25']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1709, T832, R1794, B863)
+   |    |    |    |    |    |    | ['Edit26']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Głośniki (High Definition Audio Device)'    (L1808, T734, R1913, B880)
+   |    |    |    |    |    | ['ListItem11', 'Głośniki (High Definition Audio Device)', 'Głośniki (High Definition Audio Device)ListItem']
+   |    |    |    |    |    | child_window(title="Głośniki (High Definition Audio Device)", auto_id="5", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1812, T736, R1909, B832)
+   |    |    |    |    |    |    | ['Image12']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1813, T832, R1814, B851)
+   |    |    |    |    |    |    | ['Edit27']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1814, T832, R1908, B878)
+   |    |    |    |    |    |    | ['Edit28']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Headphones (High Definition Audio Device)'    (L1917, T734, R2022, B880)
+   |    |    |    |    |    | ['ListItem12', 'Headphones (High Definition Audio Device)', 'Headphones (High Definition Audio Device)ListItem']
+   |    |    |    |    |    | child_window(title="Headphones (High Definition Audio Device)", auto_id="6", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1921, T736, R2018, B832)
+   |    |    |    |    |    |    | ['Image13']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1923, T832, R1924, B851)
+   |    |    |    |    |    |    | ['Edit29']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1924, T832, R2016, B878)
+   |    |    |    |    |    |    | ['Edit30']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'LG ULTRAGEAR'    (L2026, T734, R2131, B853)
+   |    |    |    |    |    | ['ListItem13', 'LG ULTRAGEARListItem', 'LG ULTRAGEAR']
+   |    |    |    |    |    | child_window(title="LG ULTRAGEAR", auto_id="7", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L2030, T736, R2127, B832)
+   |    |    |    |    |    |    | ['Image14']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L2036, T832, R2037, B851)
+   |    |    |    |    |    |    | ['Edit31']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L2037, T832, R2121, B848)
+   |    |    |    |    |    |    | ['Edit32']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Logitech HD Pro Webcam C920'    (L2135, T734, R2240, B865)
+   |    |    |    |    |    | ['ListItem14', 'Logitech HD Pro Webcam C920ListItem', 'Logitech HD Pro Webcam C920']
+   |    |    |    |    |    | child_window(title="Logitech HD Pro Webcam C920", auto_id="8", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L2139, T736, R2236, B832)
+   |    |    |    |    |    |    | ['Image15']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L2140, T832, R2141, B851)
+   |    |    |    |    |    |    | ['Edit33']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L2141, T832, R2235, B863)
+   |    |    |    |    |    |    | ['Edit34']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Microphone (High Definition Audio Device)'    (L2244, T734, R2349, B880)
+   |    |    |    |    |    | ['ListItem15', 'Microphone (High Definition Audio Device)', 'Microphone (High Definition Audio Device)ListItem']
+   |    |    |    |    |    | child_window(title="Microphone (High Definition Audio Device)", auto_id="9", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L2248, T736, R2345, B832)
+   |    |    |    |    |    |    | ['Image16']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L2250, T832, R2251, B851)
+   |    |    |    |    |    |    | ['Edit35']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L2251, T832, R2343, B878)
+   |    |    |    |    |    |    | ['Edit36']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Razer BlackWidow Ultimate'    (L1263, T881, R1368, B1027)
+   |    |    |    |    |    | ['ListItem16', 'Razer BlackWidow Ultimate', 'Razer BlackWidow UltimateListItem']
+   |    |    |    |    |    | child_window(title="Razer BlackWidow Ultimate", auto_id="10", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1267, T883, R1364, B979)
+   |    |    |    |    |    |    | ['Image17']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1279, T979, R1280, B998)
+   |    |    |    |    |    |    | ['Edit37']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1280, T979, R1352, B1025)
+   |    |    |    |    |    |    | ['Edit38']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'SA300/SA350'    (L1372, T881, R1477, B1000)
+   |    |    |    |    |    | ['ListItem17', 'SA300/SA350ListItem', 'SA300/SA350']
+   |    |    |    |    |    | child_window(title="SA300/SA350", auto_id="11", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1376, T883, R1473, B979)
+   |    |    |    |    |    |    | ['Image18']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1387, T979, R1388, B998)
+   |    |    |    |    |    |    | ['Edit39']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1388, T979, R1461, B995)
+   |    |    |    |    |    |    | ['Edit40']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ListItem - 'Standardowy monitor PnP'    (L1481, T881, R1586, B1012)
+   |    |    |    |    |    | ['ListItem18', 'Standardowy monitor PnP', 'Standardowy monitor PnPListItem']
+   |    |    |    |    |    | child_window(title="Standardowy monitor PnP", auto_id="12", control_type="ListItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Image - ''    (L1485, T883, R1582, B979)
+   |    |    |    |    |    |    | ['Image19']
+   |    |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Stan'    (L1495, T979, R1496, B998)
+   |    |    |    |    |    |    | ['Edit41']
+   |    |    |    |    |    |    | child_window(title="Stan", auto_id="System.StorageProviderUIStatus", control_type="Edit")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - 'Nazwa'    (L1496, T979, R1572, B1010)
+   |    |    |    |    |    |    | ['Edit42']
+   |    |    |    |    |    |    | child_window(title="Nazwa", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |
+   | TitleBar - ''    (L1265, T437, R2372, B465)
+   | ['TitleBar']
+   |    |
+   |    | Menu - 'System'    (L1249, T442, R1271, B464)
+   |    | ['SystemMenu', 'Menu', 'System', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |
+   |    |    | MenuItem - 'System'    (L1249, T442, R1271, B464)
+   |    |    | ['MenuItem2', 'System2', 'SystemMenuItem']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    |
+   |    | Button - 'Minimalizuj'    (L2233, T435, R2280, B465)
+   |    | ['Button17', 'Minimalizuj', 'MinimalizujButton']
+   |    | child_window(title="Minimalizuj", control_type="Button")
+   |    |
+   |    | Button - 'Maksymalizuj'    (L2280, T435, R2326, B465)
+   |    | ['Button18', 'MaksymalizujButton', 'Maksymalizuj']
+   |    | child_window(title="Maksymalizuj", control_type="Button")
+   |    |
+   |    | Button - 'Zamknij'    (L2326, T435, R2373, B465)
+   |    | ['Button19', 'ZamknijButton', 'Zamknij']
+   |    | child_window(title="Zamknij", control_type="Button")
+
+Process finished with exit code 0
