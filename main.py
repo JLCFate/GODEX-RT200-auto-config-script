@@ -53,10 +53,10 @@ item = panel_okno.child_window(title=printer_name, control_type="ListItem").sele
 
 send_keys('{ENTER}')
 
-drukarka = panel.window(title_re='Godex*')
-drukarka.wait('enabled')
+printer = panel.window(title_re='Godex*')
+printer.wait('enabled')
 
-drukarka.child_window(title="Drukarka", control_type="MenuItem").select()
+printer.child_window(title="Drukarka", control_type="MenuItem").select()
 
 send_keys('{UP} {UP} {ENTER}')
 
@@ -65,30 +65,32 @@ settings.wait('enabled')
 
 settings.child_window(title_re="Preferencje*", control_type="Button").click()
 
-preferencje = panel.window(title='Preferencje drukowania: '+printer_name)
-preferencje.wait('enabled')
-# preferencje.dump_tree()
-preferencje.child_window(title="Nowy...", control_type="Button").click()
+preferences = panel.window(title='Preferencje drukowania: '+printer_name)
+preferences.wait('enabled')
+preferences.child_window(title="Nowy...", control_type="Button").click()
 
-nowy_material= preferencje.window(title_re='Nowy mat*')
-nowy_material.wait('enabled')
+new_material= preferences.window(title_re='Nowy mat*')
+new_material.wait('enabled')
 send_keys('{BACKSPACE} EZD {TAB} {TAB} {TAB} 50 {TAB} 30 {TAB} {ENTER}')
 
-preferencje = panel.window(title='Preferencje drukowania: '+printer_name)
-preferencje.wait('enabled')
-#preferencje.dump_tree()
+preferences = panel.window(title='Preferencje drukowania: '+printer_name)
+preferences.wait('enabled')
 
-preferencje.child_window(title="OK", control_type="Button").click()
+preferences.child_window(title="OK", control_type="Button").click()
+settings.child_window(title="Narzędzia", control_type="TabItem").select()
+settings.child_window(title="Konfiguruj", control_type="Button").click()
+send_keys('{DOWN} {ENTER}')
+time= settings.child_window(title_re='Ustaw zeg*', found_index=0)
+time.wait('enabled')
+time.child_window(title="Określ czas ręcznie", control_type="RadioButton").click()
+time.child_window(title="Użyj bieżącego czasu systemowego", control_type="RadioButton").click
+time.child_window(title="OK", control_type="Button").click()
 
 settings.child_window(title="Narzędzia", control_type="TabItem").select()
 settings.child_window(title="Działanie", control_type="Button").click()
 send_keys('{DOWN} {DOWN} {ENTER}')
 sleep(3)
-# settings.child_window(title="Konfiguruj", control_type="Button").click()
-# send_keys('{DOWN} {ENTER}')
-# zegar = panel.active()
-# zegar.wait('enabled')
-# zegar.dump_tree()
+
 settings.child_window(title="Drukuj", control_type="Button").click()
 send_keys('{UP} {ENTER}')
 sleep(1)
